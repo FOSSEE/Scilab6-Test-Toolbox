@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="test_toolboxlib">
+  <macro name="add" file="add.bin" md5="4e07dd442ca3ee15c8b7814a75e6b2de"/>
+  <macro name="multiply" file="multiply.bin" md5="c34f6a5460f45b27c7a9da8dbba8d694"/>
+</scilablib>
