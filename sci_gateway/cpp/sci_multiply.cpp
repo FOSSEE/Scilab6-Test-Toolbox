@@ -14,7 +14,7 @@ extern "C"
 #include<api_scilab.h>
 #include <stdio.h>
 #include "localization.h"
-#include "add.h"
+#include "mul.h"
 
 
 
@@ -43,7 +43,7 @@ if (nout != 1)
     scilab_getDoubleArray(env, in[0], &in1);
     scilab_getDoubleArray(env, in[1], &in2);
 
-		add(ar, in1[0],in2[0]);
+		mul(ar, in1[0],in2[0]);
 
 		out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
    	scilab_getDoubleArray(env, out[0], &out1);

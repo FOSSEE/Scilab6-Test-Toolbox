@@ -56,7 +56,7 @@ else//LINUX
 
     C_Flags = ["-I"+inc_base_dir];
 
-		Linker_Flag = ["-L" + lib_base_dir + " -ladd -Wl,-rpath="+lib_base_dir]
+		Linker_Flag = ["-L" + lib_base_dir + " -lmul -Wl,-rpath="+lib_base_dir]
 
 end
 
