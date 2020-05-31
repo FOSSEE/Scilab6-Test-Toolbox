@@ -23,6 +23,10 @@ function test_toolboxlib = startModule()
 // =============================================================================
   mprintf("\tLoad macros\n");
   pathmacros = pathconvert( root_tlbx ) + "macros" + filesep();
+  if getos()=="Windows" then
+	lib_path = root_tlbx + "/thirdparty/windows/lib";
+    link(lib_path+filesep()+"libmul.dll");
+  end
   test_toolboxlib = lib(pathmacros);
 
 // load gateways and Java libraries
