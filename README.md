@@ -12,6 +12,6 @@ This toolbox overall demonstrates:
 
 2.  a main file to call the C function.
 
-3.  a folder named “test” inside the repository. Copy your working “trans.c” file and “main.c” file inside this folder.
+3.  a folder named “test” inside the repository. Copied my working “trans.c” file and “main.c” file inside this folder.
 
 4.  a shell script with a series of commands to compile and execute the “trans.c” and “main.c” file. I have copied the working shell script file inside the “test” folder.
