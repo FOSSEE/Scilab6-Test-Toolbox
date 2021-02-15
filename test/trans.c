@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 #include <string.h>
-int transpose(int i,int j)
+int transpose(int r,int c,int a[i][j])
 
     // Finding the transpose of matrix a
     for (i = 0; i < r; ++i)
